@@ -1,0 +1,66 @@
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+            background-image: url("https://media.istockphoto.com/id/1328485047/vector/dollar-currency-symbol-all-over-on-light-pastel-green-coloured-grunge-vector-backgrounds.jpg?s=612x612&w=0&k=20&c=oO7mLzTGyL6wK4-a-Ag203C-u72OQ-yloCBQ8vCug3o=");
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.container{
+	width: 600px;
+}
+h1{
+	font-size: 60px;
+  color: #000000;
+	text-align: center;
+  font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.col{
+	width: 48%;
+}
+select,
+input{
+	width: 100%;
+	margin-bottom: 15px;
+	font-size: 25px;
+	padding:8px 10px;
+	font-weight: 750;
+    text-align: center;
+	margin:10 auto;
+}
+input{
+	width: 100%;
+	padding: 10px 15px;
+    text-align: center;
+	margin:40 auto;
+}
+button{
+	width: 200px;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	margin:0 auto;
+	font-size: 22px;
+	border-radius: 55px;
+	background-color: #e42e00;
+	color: #000000;
+	border:0;
+	cursor: pointer;
+  font-family:'Times New Roman', Times, serif
+}
+
